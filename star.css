@@ -1,0 +1,133 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5e0e0; /* Light pink background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Main Section */
+.main-section {
+    height: 100vh;
+    background-color: #c72251; /* Bright pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.main-section .container {
+    max-width: 900px;
+    width: 100%;
+}
+
+.starbucks-logo {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.main-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.main-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: white;
+    color: #ff4f81;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #f5e0e0;
+}
+
+/* About Section */
+.explore {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.explore h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.explore p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #ff4f81;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .main-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .main-section p {
+        font-size: 1rem;
+    }
+
+    .cta-btn {
+        padding: 12px 25px;
+    }
+
+    .explore h2 {
+        font-size: 2rem;
+    }
+
+    .explore p {
+        font-size: 1rem;
+    }
+}

@@ -32,7 +32,7 @@ JavaScript Integration: Enhance interactivity, such as dynamic background color 
 📫 Contact
 For any suggestions or feedback, feel free to reach out!
 
-Email: your-email@example.com
-GitHub: @your-username
+Email:@aasthaagni2003@gmail.com
+GitHub:@A-Ashh
 
 Feel free to customize the README based on your project and personal preferences!

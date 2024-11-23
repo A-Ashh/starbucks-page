@@ -19,9 +19,9 @@ Responsive Design: Ensures that the page is mobile-friendly and adapts to differ
 https://github.com/user-attachments/assets/b4c1e75d-56bd-434b-9870-869723a80cb8
 
 📂 Project Structure
-├── index.html       # Main HTML file for the landing page
-├── style.css        # Styling for the page layout
-└── assets/          # (Optional) Images or additional resources (e.g., Starbucks logo)
+├── starbucks.html       # Main HTML file for the landing page
+├── star.css             # Styling for the page layout
+└── assets/              # (Optional) Images or additional resources (e.g., Starbucks logo)
 
 📈 Future Enhancements
 Interactive Features: Add animations or hover effects for buttons and links.

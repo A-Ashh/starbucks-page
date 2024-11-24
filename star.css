@@ -1,0 +1,90 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #d2b48c;
+    color: #333;
+}
+
+.hero-section {
+    text-align: center;
+    background-color: #8b4513;
+    color: #fff;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-style:oblique;
+}
+
+.hero-section h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #6f4e37; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #523629;
+}
+
+.features-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.coffee-cups {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.coffee-cup {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.coffee-cup:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    .hero-section h2 {
+        font-size: 1.8rem;
+    }
+    .hero-section p {
+        font-size: 1rem;
+    }
+    .coffee-cup {
+        width: 120px;
+        height: 120px;
+    }
+}

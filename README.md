@@ -16,7 +16,7 @@ CSS3: Styling for a clean and modern design with a pink background to reflect St
 Responsive Design: Ensures that the page is mobile-friendly and adapts to different screen sizes.
 
 📸 Preview
-[WhatsApp Image 2024-11-24 at 22 32 36_ef6dcae5](https://github.com/user-attachments/assets/02d4004e-9177-4b12-a606-c7d24ebb2d8e)
+https://github.com/user-attachments/assets/1f46fab2-054a-4272-8ad7-8b243f632dbf
 
 📂 Project Structure!
 
